@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "actioncable": "^5.2.1",
     "antd": "^3.9.1",
     "babel-plugin-import": "^1.8.0",
     "grid-styled": "^5.0.2",
