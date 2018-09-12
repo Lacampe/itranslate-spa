@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { Component } from 'react'
+import { connect } from 'react-redux'
 import styled from 'styled-components'
 import { Flex, Box } from 'grid-styled'
 
@@ -6,10 +7,12 @@ const ChatContainer = styled(Box)`
   height: 100%;
 `
 
-const Chat = () => (
-  <ChatContainer flex='1 1 auto'>
+class Chat extends Component {
+  render() {
+    return (
+      <p>this is the chat</p>
+    )
+  }
+}
 
-  </ChatContainer>
-)
-
-export default Chat
+export default connect(null, null)(Chat)
